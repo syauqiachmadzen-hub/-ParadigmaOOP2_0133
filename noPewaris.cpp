@@ -19,3 +19,9 @@ public:
         cout << "Hallo saya function dari darived Class";
     }    
 };
+int main() {
+    darivedClass a;
+    a.perkenalan();
+
+    return 0;
+}

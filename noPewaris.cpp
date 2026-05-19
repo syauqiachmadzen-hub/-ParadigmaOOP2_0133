@@ -13,3 +13,9 @@ public:
         cout << "Hallo saya Functioonal dari base class";
     }    
 };
+class darivedClass : public baseClass1 {
+public:
+    void perkenalan() {
+        cout << "Hallo saya function dari darived Class";
+    }    
+};
